@@ -1,0 +1,5 @@
+Main BG COLOR: #280052
+
+Bright Pink - #FF30FF
+
+Whataspp button: #25D366

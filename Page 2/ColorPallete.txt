@@ -1,0 +1,8 @@
+
+Main Purple - #34044F
+
+Grey acccent - #CCCCCC
+
+Darker Grey - E6E6E6
+
+Gradient: Main purple and Bright Pink  = #34044F - #FF30FF (90 DEG)
