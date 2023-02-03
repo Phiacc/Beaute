@@ -3,7 +3,8 @@
     margin: 0%;
     padding: 0;
 }:root{
-    --main-color-linear:linear-gradient(136deg,#34044F,#200437);
+    --main-color-linear:linear-gradient(180deg,#34044F,#200437);
+    --Main-Purple: #34044F;
 }
 body{
     /* min-width:100px; */
@@ -41,5 +42,90 @@ body{
 /* Welcome page */
 .logo-black{
     width: 200px;
-    height: 300px;
+    height: 50px;
+    margin: 20px 80px;
 }
+
+.slider{
+    display: flex;
+    margin: 20px 45px;
+    width: 270px;
+    height: 120px;
+    border-radius: 10px;
+} 
+.slider img{
+    filter: brightness(60%);
+    position: absolute;
+    width: 75%;
+    height: 120px;
+    background: var(--main-color-linear);
+    opacity: 150%;
+    border-radius: 10px;
+}
+.slider p{
+    position: absolute;
+    font-size: 23px;
+    color: #ffff;
+    top: 0;
+    line-height: 25px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 140px;
+    margin-left: 30px;
+} 
+.line{
+    position: absolute;
+    top: 0;
+    margin-top: 190px;
+    margin-left: 58px;
+    width: 4rem;
+    border: 1px solid #FF30FF;
+}
+.option{
+    display: flex;
+    width: 20rem;
+    height: 100px;
+    margin: 2rem 2rem;
+}
+.grey-container{
+    display: flex;
+    flex-direction: column;
+    width: 8rem;
+    height: 100px;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    margin-left: 1rem;
+    background: #CCCCCC;
+}
+.grey-container img{
+    width: 70px;
+    height: 40px;
+}
+.hr-grey{
+    display: flex;
+    width: 18rem;
+    height: 7vh;
+    border-radius: 5px;
+    background: #CCCCCC;
+    margin-left: 3rem;
+}
+.hr-grey p{
+    padding-top: 13px;
+    padding-left: 16px;
+    font-size: 15px;
+}
+
+.sideimg{
+    margin-left: 4rem;
+    background: var(--main-color-linear);
+    width: 2rem;
+    height: 7vh;
+}
+.page-text{
+    margin: 2rem 2rem;
+}
+.footer{
+    display: flex;
+    margin: 2rem 4rem;
+}
+
+/* Pedicure login */
