@@ -97,7 +97,7 @@ body{
     background: #CCCCCC;
 }
 .grey-container img{
-    width: 20px;
+    width: 70px;
     height: 40px;
 }
 .hr-grey{
@@ -115,10 +115,14 @@ body{
 }
 
 .sideimg{
-    margin-left: 4rem;
+    margin-left: 5rem;
     background: var(--main-color-linear);
     width: 2rem;
     height: 7vh;
+}
+.sideimg img{
+    width: 50px;
+    height: 40px;
 }
 .page-text{
     margin: 2rem 2rem;
