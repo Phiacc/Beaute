@@ -97,7 +97,7 @@ body{
     background: #CCCCCC;
 }
 .grey-container img{
-    width: 70px;
+    width: 20px;
     height: 40px;
 }
 .hr-grey{
@@ -109,9 +109,9 @@ body{
     margin-left: 3rem;
 }
 .hr-grey p{
-    padding-top: 13px;
-    padding-left: 16px;
-    font-size: 15px;
+    padding-top: 8px;
+    padding-left: 11px;
+    font-size: 13px;
 }
 
 .sideimg{
