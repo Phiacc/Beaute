@@ -4,7 +4,10 @@
     padding: 0;
 }:root{
     --main-color-linear:linear-gradient(180deg,#34044F,#200437);
+    /* --submit-color-linear:linear-gradient( 90deg, #34044F, #FF30FF ); */
     --Main-Purple: #34044F;
+    --regular-grey:#CCCCCC;
+    --darker-grey: #E6E6E6;
 }
 body{
     /* min-width:100px; */
@@ -94,7 +97,7 @@ body{
     border-radius: 5px;
     padding: 1rem 2rem;
     margin-left: 1rem;
-    background: #CCCCCC;
+    background: var(--regular-grey);
 }
 .grey-container img{
     width: 70px;
@@ -105,7 +108,7 @@ body{
     width: 18rem;
     height: 7vh;
     border-radius: 5px;
-    background: #CCCCCC;
+    background: var(--regular-grey);
     margin-left: 3rem;
 }
 .hr-grey p{
@@ -133,3 +136,79 @@ body{
 }
 
 /* Pedicure login */
+<<<<<<< HEAD
+.leg-png{
+    width: 80px;
+    height: 90px;
+    margin: 4rem 9rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 30px;
+}
+.colored-text{
+    color: var(--Main-Purple);
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+span{
+    color: #FF30FF;
+}
+.input,button{
+    width: 18rem;
+    padding: 15px 20px;
+    border-radius: 6px;
+    color: black;
+    background-color: var(--regular-grey);
+    font-size: 15px;
+    margin: 7px 6px;
+    outline: none;
+    border: none; 
+    z-index: 10;
+}
+.input:focus{
+    border: 1px solid #2e0347;
+}
+button{
+    background: linear-gradient( 90deg, #34044F, #FF30FF );
+    color: #ffff;
+    margin-top: 15px;
+}
+.checkbox-text,
+.checkbox{
+    margin-top: 3px;
+    margin-left: 10px;
+}
+.background-img{
+    display: flex;
+    width: 70%;
+    height: 50vh;
+    background-image: url(./Page2/icons/PedicureMainn.png);
+    background-size: cover;
+    opacity: 15%;
+    margin-left: -4rem;
+    margin-top: 7rem;
+
+}
+.surface{
+    display: flex;
+    margin-top: -30rem;
+}
+.pg2-footer{
+    display: flex;
+    margin: 10px 90px;
+}
+/* Manicure login */
+.pg3-button{
+    background: linear-gradient( 90deg, #FF30FF, #34044F );
+    color: #ffff;
+    margin-top: 15px;
+}
+.hand-png{
+    width: 130px;
+    height: 100px;
+    margin: 4rem 7rem;
+}
+=======
+>>>>>>> 631fa7e3e42bed5a5d6e21436c4c07ce2d8d3476
