@@ -192,12 +192,18 @@ button{
 }
 .surface{
     display: flex;
-    margin-top: -10rem;
+    margin-top: -30rem;
 }
 .pg2-footer{
     display: flex;
     margin: 10px 90px;
 }
+.leg-png{
+    width: 80px;
+    height: 90px;
+    margin: 4rem 9rem;
+}
+
 /* Manicure login */
 .pg3-button{
     background: linear-gradient( 90deg, #FF30FF, #34044F );
